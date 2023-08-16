@@ -4,13 +4,13 @@ Linear regression is a fundamental statistical technique used to model the relat
 
 ## Key Concepts
 
-**- Dependent and Independent Variables:** In linear regression, you have a dependent variable (also known as the response variable) that you're trying to predict based on one or more independent variables (predictors, features).
+- **Dependent and Independent Variables:** In linear regression, you have a dependent variable (also known as the response variable) that you're trying to predict based on one or more independent variables (predictors, features).
 
-**- Simple Linear Regression:** In a simple linear regression, there's only one independent variable. The relationship between the variables is modeled as a straight line equation: y = mx + b, where y is the dependent variable, x is the independent variable, m is the slope, and b is the intercept.
+- **Simple Linear Regression:** In a simple linear regression, there's only one independent variable. The relationship between the variables is modeled as a straight line equation: y = mx + b, where y is the dependent variable, x is the independent variable, m is the slope, and b is the intercept.
 
-**- Multiple Linear Regression:** When there are multiple independent variables, the equation becomes y = b0 + b1x1 + b2x2 + ... + bnxn, where b0 is the intercept, b1, b2, ..., bn are the coefficients of the respective independent variables.
+- **Multiple Linear Regression:** When there are multiple independent variables, the equation becomes y = b0 + b1x1 + b2x2 + ... + bnxn, where b0 is the intercept, b1, b2, ..., bn are the coefficients of the respective independent variables.
 
-**- Residuals:** Residuals are the differences between the predicted values and the actual observed values. The goal of linear regression is to minimize these residuals.
+- **Residuals:** Residuals are the differences between the predicted values and the actual observed values. The goal of linear regression is to minimize these residuals.
 
 ## Steps to Perform Linear Regression
 
@@ -32,9 +32,9 @@ Linear regression is a fundamental statistical technique used to model the relat
 
 Python offers several libraries for performing linear regression:
 
-**- Scikit-Learn:** A popular machine learning library that provides easy-to-use tools for various types of regression, including linear regression.
+- **Scikit-Learn:** A popular machine learning library that provides easy-to-use tools for various types of regression, including linear regression.
 
-**- Statsmodels:** A library focused on statistical models and hypothesis testing. It provides detailed statistics about the regression model.
+- **Statsmodels:** A library focused on statistical models and hypothesis testing. It provides detailed statistics about the regression model.
 
 ## Example Code (using Scikit-Learn)
 
@@ -68,8 +68,8 @@ print(f"Mean Squared Error: {mse}")
 
 ## Practical Applications
 
-**- Predictive Analysis:** Predicting sales, stock prices, or any outcome based on relevant factors.
+- **Predictive Analysis:** Predicting sales, stock prices, or any outcome based on relevant factors.
 
-**- Economics and Social Sciences:** Analyzing the relationship between variables like income and education.
+- **Economics and Social Sciences:** Analyzing the relationship between variables like income and education.
 
-**- Engineering:** Modeling factors like temperature, pressure, and time.
+- **Engineering:** Modeling factors like temperature, pressure, and time.
