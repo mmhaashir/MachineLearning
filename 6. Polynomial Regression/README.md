@@ -26,47 +26,21 @@ Polynomial regression is an extension of linear regression that allows you to mo
 
 - Scikit-Learn: Scikit-Learn's PolynomialFeatures can be used to create polynomial features, and the rest of the regression process remains similar to linear regression.
 
-## Example Code (using Scikit-Learn)
+## Performing Polynomial Regression
+
+To perform Polynomial Regression, you need to install scikit-learn using pip:
+
+`pip install scikit-learn`
+
+After installation, you can import it into your Python code:
+
+`from sklearn.preprocessing import PolynomialFeatures`
+
+You'll also need the following libraries to be imported:
 
 ```
-import numpy as np
-import matplotlib.pyplot as plt
-from sklearn.preprocessing import PolynomialFeatures
 from sklearn.linear_model import LinearRegression
-from sklearn.metrics import mean_squared_error
-
-# Simulated data
-X = np.random.rand(100, 1) * 10
-y = 0.5 * X**2 - 3 * X + 5 + np.random.randn(100, 1) * 2
-
-# Create polynomial features
-degree = 2
-poly_features = PolynomialFeatures(degree=degree)
-X_poly = poly_features.fit_transform(X)
-
-# Initialize linear regression model
-model = LinearRegression()
-
-# Fit the model to the polynomial features
-model.fit(X_poly, y)
-
-# Predict on the same range of X values
-X_pred = np.linspace(X.min(), X.max(), 100).reshape(-1, 1)
-X_pred_poly = poly_features.transform(X_pred)
-y_pred = model.predict(X_pred_poly)
-
-# Calculate mean squared error
-mse = mean_squared_error(y, model.predict(X_poly))
-print(f"Mean Squared Error: {mse}")
-
-# Plot the data and polynomial regression curve
-plt.scatter(X, y, label="Data")
-plt.plot(X_pred, y_pred, color='r', label=f'Degree {degree} Fit')
-plt.xlabel("X")
-plt.ylabel("y")
-plt.title("Polynomial Regression")
-plt.legend()
-plt.show()
+from sklearn.model_selection import train_test_split
 ```
 
 ## Practical Applications
