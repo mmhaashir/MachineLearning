@@ -30,6 +30,16 @@ Both Lasso and Ridge regularization introduce a parameter, often denoted as lamb
 
 - **Scikit-Learn:** Scikit-Learn provides implementations of Lasso and Ridge regression models, allowing you to easily apply regularization to your linear regression models.
 
+## Applying Regularization
+
+To start apply regularization, you need to install scikit-learn using pip:
+
+`pip install scikit-learn`
+
+After installation, you can import it into your Python code:
+
+`from sklearn.linear_model import Ridge, Lasso`
+
 ## Practical Applications
 
 Regularization is used in various machine learning applications, such as:
