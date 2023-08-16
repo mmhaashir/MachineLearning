@@ -36,35 +36,19 @@ Python offers several libraries for performing linear regression:
 
 - **Statsmodels:** A library focused on statistical models and hypothesis testing. It provides detailed statistics about the regression model.
 
-## Example Code (using Scikit-Learn)
+## Performing Linear Regression
 
-```
-import numpy as np
-from sklearn.model_selection import train_test_split
-from sklearn.linear_model import LinearRegression
-from sklearn.metrics import mean_squared_error
+To perform Linear Regression, you need to install Scikit-learn using pip:
 
-# Simulated data
-X = np.random.rand(100, 1) * 10
-y = 3 * X + 2 + np.random.randn(100, 1) * 2
+`pip install scikit-learn`
 
-# Split data into training and testing sets
-X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
+After installation, you can import it into your Python code:
 
-# Initialize the linear regression model
-model = LinearRegression()
+`from sklearn.linear_model import LinearRegression`
 
-# Fit the model to the training data
-model.fit(X_train, y_train)
+You will also need train-test split which is available in Scikit-Learn
 
-# Predict on the test data
-y_pred = model.predict(X_test)
-
-# Calculate mean squared error
-mse = mean_squared_error(y_test, y_pred)
-print(f"Mean Squared Error: {mse}")
-
-```
+`from sklearn.model_selection import train_test_split`
 
 ## Practical Applications
 
