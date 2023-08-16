@@ -2,7 +2,7 @@
 
 Seaborn is a popular Python data visualization library built on top of Matplotlib. It is specifically designed for creating aesthetically pleasing and informative statistical graphics. Seaborn simplifies the process of creating complex visualizations by providing a high-level interface for creating various types of plots with minimal code.
 
-Key features of Seaborn:
+## Key features:
 
 **1. Improved Aesthetics:** Seaborn comes with a set of pre-defined themes and color palettes that greatly enhance the aesthetics of your plots. This makes it easy to create visually appealing charts without having to fine-tune every detail.
 
@@ -20,6 +20,7 @@ Key features of Seaborn:
 
 **8. Customizability:** While Seaborn provides a variety of pre-configured styles, color palettes, and plot types, it also allows for a high degree of customization. You can fine-tune the appearance of your plots using Matplotlib functions since Seaborn is built on top of it.
 
+## Example Code
 Getting started with Seaborn usually involves importing the library, loading or creating your data, and then using its functions to generate the desired plot. Here's a simple example of creating a scatter plot using Seaborn:
 
 ```
