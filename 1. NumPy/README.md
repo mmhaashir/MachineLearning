@@ -2,7 +2,7 @@
 
 NumPy (Numerical Python) is a fundamental package in the Python programming language for scientific computing and data manipulation. It provides support for arrays, matrices, and a wide range of mathematical functions that enable efficient and convenient numerical operations. NumPy forms the foundation for many other scientific libraries and tools in the Python ecosystem, making it an essential component for data analysis, machine learning, simulations, and more.
 
-Key features and concepts of NumPy:
+## Key features:
 
 **1. Multidimensional Arrays:** The core feature of NumPy is its powerful `ndarray` (n-dimensional array) object. These arrays can hold elements of the same data type and can have any number of dimensions. NumPy's array operations are highly optimized and efficient, allowing for complex computations on large datasets.
 
@@ -17,6 +17,8 @@ Key features and concepts of NumPy:
 **6. Linear Algebra:** NumPy includes a rich set of linear algebra functions, such as matrix operations, eigenvalue decomposition, singular value decomposition, and more. These capabilities are particularly valuable in scientific and engineering applications.
 
 **Random Number Generation:** The `numpy.random` module provides tools for generating random numbers and random arrays for simulations and statistical purposes.
+
+## Using NumPy
 
 To use NumPy, you typically need to install it first using a package manager like `pip`:
 
