@@ -20,25 +20,12 @@ Seaborn is a popular Python data visualization library built on top of Matplotli
 
 **8. Customizability:** While Seaborn provides a variety of pre-configured styles, color palettes, and plot types, it also allows for a high degree of customization. You can fine-tune the appearance of your plots using Matplotlib functions since Seaborn is built on top of it.
 
-## Example Code
-Getting started with Seaborn usually involves importing the library, loading or creating your data, and then using its functions to generate the desired plot. Here's a simple example of creating a scatter plot using Seaborn:
+## Using Seaborn
 
-```
-import seaborn as sns
-import matplotlib.pyplot as plt
+To start using Matplotlib, you can install it using `pip`:
 
-# Load a built-in dataset
-tips = sns.load_dataset("tips")
+`pip install seaborn`
 
-# Create a scatter plot
-sns.scatterplot(x="total_bill", y="tip", data=tips)
+After installation, you can import it into your Python code:
 
-# Add labels and title
-plt.xlabel("Total Bill")
-plt.ylabel("Tip")
-plt.title("Scatter Plot of Tips vs Total Bill")
-
-# Show the plot
-plt.show()
-
-```
+`import seaborn as sns`
