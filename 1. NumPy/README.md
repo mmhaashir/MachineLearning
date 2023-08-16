@@ -4,7 +4,7 @@ NumPy (Numerical Python) is a fundamental package in the Python programming lang
 
 Key features and concepts of NumPy:
 
-**1. Multidimensional Arrays:** The core feature of NumPy is its powerful **ndarray** (n-dimensional array) object. These arrays can hold elements of the same data type and can have any number of dimensions. NumPy's array operations are highly optimized and efficient, allowing for complex computations on large datasets.
+**1. Multidimensional Arrays:** The core feature of NumPy is its powerful `ndarray` (n-dimensional array) object. These arrays can hold elements of the same data type and can have any number of dimensions. NumPy's array operations are highly optimized and efficient, allowing for complex computations on large datasets.
 
 **2. Universal Functions (Ufuncs):** NumPy provides a wide variety of mathematical, logical, and statistical functions that operate element-wise on arrays. These functions are known as "ufuncs" and provide fast and vectorized computation.
 
@@ -16,9 +16,9 @@ Key features and concepts of NumPy:
 
 **6. Linear Algebra:** NumPy includes a rich set of linear algebra functions, such as matrix operations, eigenvalue decomposition, singular value decomposition, and more. These capabilities are particularly valuable in scientific and engineering applications.
 
-**Random Number Generation:** The **numpy.random** module provides tools for generating random numbers and random arrays for simulations and statistical purposes.
+**Random Number Generation:** The `numpy.random` module provides tools for generating random numbers and random arrays for simulations and statistical purposes.
 
-To use NumPy, you typically need to install it first using a package manager like **pip**:
+To use NumPy, you typically need to install it first using a package manager like `pip`:
 
 ```pip install numpy```
 
