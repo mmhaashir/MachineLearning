@@ -2,6 +2,8 @@
 
 Polynomial regression is an extension of linear regression that allows you to model relationships between variables using higher-degree polynomial functions. While linear regression assumes a linear relationship between variables, polynomial regression is suitable for cases where the relationship is curvilinear or nonlinear.
 
+![pr_image](https://www.voxco.com/wp-content/uploads/2022/02/POLYMONIAL-REGRESSION.jpg)
+
 ## Key Concepts
 
 - **Polynomial Degree:** The degree of a polynomial determines the curve's complexity. A linear regression model has a polynomial degree of 1, while quadratic regression has a degree of 2, cubic has a degree of 3, and so on.
