@@ -2,6 +2,8 @@
 
 Regularization is a technique used in machine learning to prevent overfitting and improve the generalization of models. It achieves this by adding a penalty term to the model's cost function, encouraging it to have smaller coefficient values. Lasso and Ridge regularization are two common forms of regularization applied to linear regression models.
 
+![regularization_image](https://media.geeksforgeeks.org/wp-content/uploads/20190523171704/overfitting_21.png)
+
 ## Why Regularization?
 
 In machine learning, overfitting occurs when a model captures noise and fluctuations in the training data, leading to poor performance on new, unseen data. Regularization addresses this by discouraging overly complex models that fit the training data too closely.
