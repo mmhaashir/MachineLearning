@@ -2,6 +2,8 @@
 
 Linear regression is a fundamental statistical technique used to model the relationship between two or more variables. It's widely employed for predictive analysis, understanding correlations, and making projections based on observed data points. In its simplest form, linear regression seeks to find the best-fitting straight line that minimizes the differences between the predicted and actual values.
 
+![lr_photo](https://miro.medium.com/v2/resize:fit:1400/1*quSxcHc0ib4nbtj7TFH6gw.png)
+
 ## Key Concepts
 
 - **Dependent and Independent Variables:** In linear regression, you have a dependent variable (also known as the response variable) that you're trying to predict based on one or more independent variables (predictors, features).
