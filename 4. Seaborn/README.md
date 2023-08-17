@@ -2,7 +2,7 @@
 
 Seaborn is a popular Python data visualization library built on top of Matplotlib. It is specifically designed for creating aesthetically pleasing and informative statistical graphics. Seaborn simplifies the process of creating complex visualizations by providing a high-level interface for creating various types of plots with minimal code.
 
-![seaborn_logo](https://warehouse-camo.ingress.us-east-2.pypi.io/189c5d99fbda79b2218f2d4a4fe29415d32c8d8a/68747470733a2f2f7261772e67697468756275736572636f6e74656e742e636f6d2f6d7761736b6f6d2f736561626f726e2f6d61737465722f646f632f5f7374617469632f6c6f676f2d776964652d6c6967687462672e737667)
+![seaborn_logo](https://miro.medium.com/v2/resize:fit:819/1*5VKgpRUCInBKmWBXFvSvvA.png)
 
 ## Key features:
 
