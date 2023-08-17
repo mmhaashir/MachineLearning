@@ -2,6 +2,8 @@
 
 Matplotlib is a widely used data visualization library in Python that allows you to create a wide range of static, interactive, and animated visualizations. It was developed by John D. Hunter and provides a flexible and comprehensive set of tools for generating various types of plots and charts. Matplotlib's versatility makes it suitable for both basic data exploration and creating complex publication-quality visualizations.
 
+![matplotlib_logo](https://matplotlib.org/3.1.1/_static/logo2_compressed.svg)
+
 ## Key features:
 
 **1. Figure and Axes:** Matplotlib uses a hierarchical structure for creating plots. A `Figure` represents the entire figure or window in which you create your plots, while `Axes` objects represent individual plots within the figure. A single figure can contain multiple axes, allowing you to create subplots and arrange plots in various configurations.
