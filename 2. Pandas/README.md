@@ -1,8 +1,8 @@
 # Pandas
 
-![pandas_logo](https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Pandas_logo.svg/1200px-Pandas_logo.svg.png)
-
 Pandas is an open-source Python library that provides high-level data structures and data analysis tools, making it an essential tool for data manipulation, cleaning, exploration, and analysis. Created by Wes McKinney, Pandas is widely used in the fields of data science, finance, economics, and many other domains where data handling and analysis are crucial.
+
+![pandas_logo](https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Pandas_logo.svg/1200px-Pandas_logo.svg.png)
 
 ## Key features:
 
