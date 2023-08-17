@@ -1,5 +1,7 @@
 # Numpy
 
+![numpy_logo](https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/NumPy_logo_2020.svg/1200px-NumPy_logo_2020.svg.png)
+
 NumPy (Numerical Python) is a fundamental package in the Python programming language for scientific computing and data manipulation. It provides support for arrays, matrices, and a wide range of mathematical functions that enable efficient and convenient numerical operations. NumPy forms the foundation for many other scientific libraries and tools in the Python ecosystem, making it an essential component for data analysis, machine learning, simulations, and more.
 
 ## Key features:
