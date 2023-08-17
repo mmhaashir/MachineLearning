@@ -36,3 +36,6 @@ Machine learning is a transformative branch of artificial intelligence that empo
 7. [Regularization](https://github.com/mmhaashir/MachineLearning/tree/main/7.%20Regularization)
     - [Ridge Regularization](https://github.com/mmhaashir/MachineLearning/blob/main/7.%20Regularization/1.%20Ridge_Regularization.ipynb)
     - [Lasso Regularization](https://github.com/mmhaashir/MachineLearning/blob/main/7.%20Regularization/2.%20Lasso_Regularization.ipynb)
+8. [Feature Engineering and Data Preparation](https://github.com/mmhaashir/MachineLearning/tree/main/8.%20Feature%20Engineering%20and%20Data%20Preparation)
+   - [Handling Outliers](https://github.com/mmhaashir/MachineLearning/blob/main/8.%20Feature%20Engineering%20and%20Data%20Preparation/1.%20Outliers.ipynb)
+   - [Handling Missing Data](https://github.com/mmhaashir/MachineLearning/blob/main/8.%20Feature%20Engineering%20and%20Data%20Preparation/2.%20Missing_Data.ipynb)
